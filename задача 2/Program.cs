@@ -16,7 +16,4 @@ double k1 = ImputNumber("k1");
 double k2 = ImputNumber("k2");
 double x = (b2 - b1) / (k1 - k2);
 double y = k1 * ((b2 - b1) / (k1 - k2)) + b1;
-//double point1 = k1 * x + b1;             Подсчет через уровнение
-//double point2 = k2 * x + b2;             Подсчет через уровнение
 Console.WriteLine($"Точка х = {x}, точка у = {y}");
-//Console.WriteLine($"Точка point1 = {point1}, точка point2 = {point2}");
